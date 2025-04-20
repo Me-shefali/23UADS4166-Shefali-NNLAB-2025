@@ -1,6 +1,6 @@
 # RNN 
 
-## objective
+## Objective
 Write a Program to train and evaluate a Recurrent Neural Network using PyTorch Library to predict the next value in a sample time series dataset. 
 
 ## Description of model
@@ -29,3 +29,22 @@ Write a Program to train and evaluate a Recurrent Neural Network using PyTorch L
 - Finding the loss(Loss function: Mean Squared Error for regression) and applying the optimizer(Optimizer: Adam for training efficiency).
 - Finally the model is trained and evaluated.
 - Ploting the graph to compare the actual and predicted output.
+
+## Output
+Epoch [10/100], Loss: 0.0258
+Epoch [20/100], Loss: 0.0061
+Epoch [30/100], Loss: 0.0026
+Epoch [40/100], Loss: 0.0001
+Epoch [50/100], Loss: 0.0002
+Epoch [60/100], Loss: 0.0001
+Epoch [70/100], Loss: 0.0000
+Epoch [80/100], Loss: 0.0000
+Epoch [90/100], Loss: 0.0000
+Epoch [100/100], Loss: 0.0000
+
+## My comments
+- RNNs forget long-term patterns easily.
+- They may lag or miss sharp changes in data.
+- Not ideal for complex or noisy time series.
+- Can be improved by using LSTM or GRU.
+- Better tuning and more layers can boost accuracy.
