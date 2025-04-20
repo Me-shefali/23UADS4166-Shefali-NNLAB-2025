@@ -1,9 +1,9 @@
-Multi-layer Perceptron
+# Multi-layer Perceptron
 
-Objective:
+## Objective:
 Write a Program to implement a multi-layer perceptron (MLP) network with one hidden layer using numpy in Python. Demonstrate that it can learn the XOR Boolean function.
 
-Description:
+## Description:
 The implemented Multi-Layer Perceptron (MLP) model consists of the following components:
 1.	Input Layer:
   o	Two input neurons correspond to the features of the XOR truth table ([0, 0], [0, 1], [1, 0], [1, 1]).
@@ -17,7 +17,7 @@ The implemented Multi-Layer Perceptron (MLP) model consists of the following com
   o	Uses weighted sum and bias and applies the step activation function to obtain the binary outputs.
 
 
-Description of code:
+## Description of code:
 1.	Importing the numpy library.
 2.	The step function is used as an activation function, 
       If x >= 0, then output = 1
@@ -30,16 +30,16 @@ Description of code:
 6.	In the mlp_xor_predict function, first hidden output is calculated using perceptron_forward function and this output works as input for the output layer where perceptron_forward function is applied again to generate the final output.
 7.	Printing the final output. 
 
-Output:
+## Output:
 Input	Output
 [0 0]	0
 [0 1]	1
 [1 0]	1
 [1 1]	0
 
-Performance:
+## Performance:
 -	Accurately predicts the XOR outputs.
 
-My comments:
+## My comments:
 -	Instead of choosing the weights and biases manually, we can use learning algorithms.
 -	We can use backpropagation to automatically update the weights and biases.
