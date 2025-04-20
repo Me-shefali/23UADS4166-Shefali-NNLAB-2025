@@ -31,16 +31,16 @@ Write a Program to train and evaluate a Recurrent Neural Network using PyTorch L
 - Ploting the graph to compare the actual and predicted output.
 
 ## Output
-Epoch [10/100], Loss: 0.0258
-Epoch [20/100], Loss: 0.0061
-Epoch [30/100], Loss: 0.0026
-Epoch [40/100], Loss: 0.0001
-Epoch [50/100], Loss: 0.0002
-Epoch [60/100], Loss: 0.0001
-Epoch [70/100], Loss: 0.0000
-Epoch [80/100], Loss: 0.0000
-Epoch [90/100], Loss: 0.0000
-Epoch [100/100], Loss: 0.0000
+    Epoch [10/100], Loss: 0.0258
+    Epoch [20/100], Loss: 0.0061
+    Epoch [30/100], Loss: 0.0026
+    Epoch [40/100], Loss: 0.0001
+    Epoch [50/100], Loss: 0.0002
+    Epoch [60/100], Loss: 0.0001
+    Epoch [70/100], Loss: 0.0000
+    Epoch [80/100], Loss: 0.0000
+    Epoch [90/100], Loss: 0.0000
+    Epoch [100/100], Loss: 0.0000
 
 ## My comments
 - RNNs forget long-term patterns easily.
