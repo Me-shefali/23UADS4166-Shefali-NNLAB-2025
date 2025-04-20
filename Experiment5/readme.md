@@ -22,7 +22,38 @@ WAP to train and evaluate a convolutional neural network using Keras Library to 
 - Plots a graph to compare the validation accuracy of each configuration across 5 training epochs.
 
 ## Output
-
+    🔧 Training with F=3, L2=0.0001, B=32, Opt=adam
+    ✅ Test accuracy: 0.9077
+    🔧 Training with F=3, L2=0.0001, B=32, Opt=sgd
+    ✅ Test accuracy: 0.8573
+    🔧 Training with F=3, L2=0.0001, B=64, Opt=adam
+    ✅ Test accuracy: 0.9029
+    🔧 Training with F=3, L2=0.0001, B=64, Opt=sgd
+    ✅ Test accuracy: 0.8380
+    🔧 Training with F=3, L2=0.001, B=32, Opt=adam
+    ✅ Test accuracy: 0.8862
+    🔧 Training with F=3, L2=0.001, B=32, Opt=sgd
+    ✅ Test accuracy: 0.8517
+    🔧 Training with F=3, L2=0.001, B=64, Opt=adam
+    ✅ Test accuracy: 0.8854
+    🔧 Training with F=3, L2=0.001, B=64, Opt=sgd
+    ✅ Test accuracy: 0.8277
+    🔧 Training with F=5, L2=0.0001, B=32, Opt=adam
+    ✅ Test accuracy: 0.8998
+    🔧 Training with F=5, L2=0.0001, B=32, Opt=sgd
+    ✅ Test accuracy: 0.8402
+    🔧 Training with F=5, L2=0.0001, B=64, Opt=adam
+    ✅ Test accuracy: 0.8987
+    🔧 Training with F=5, L2=0.0001, B=64, Opt=sgd
+    ✅ Test accuracy: 0.8203
+    🔧 Training with F=5, L2=0.001, B=32, Opt=adam
+    ✅ Test accuracy: 0.8840
+    🔧 Training with F=5, L2=0.001, B=32, Opt=sgd
+    ✅ Test accuracy: 0.8620
+    🔧 Training with F=5, L2=0.001, B=64, Opt=adam
+    ✅ Test accuracy: 0.8907
+    🔧 Training with F=5, L2=0.001, B=64, Opt=sgd
+    ✅ Test accuracy: 0.8309
 
 ## My comments
 - The model is trained for only 5 epochs, which may not be enough for best performance.
