@@ -1,10 +1,9 @@
-3-Layer NN using Tensorflow
+# 3-Layer NN using Tensorflow
 
-1.	Objective:
+## Objective:
 Write a Program to implement a three-layer neural network using Tensor flow library (only, no keras) to classify MNIST handwritten digits dataset. Demonstrate the implementation of feed-forward and back-propagation approaches.
 
-
-2.	Description of the model:
+## Description of the model:
 This program implements a three-layer fully connected neural network using TensorFlow (without Keras) to classify the MNIST handwritten digits dataset. The model follows a feed-forward neural network architecture with backpropagation for training.
 -	Input layer (784 neurons), the input consists of 28x28 grayscale images.
 -	Hidden layer 1 (128 neurons).
@@ -14,7 +13,7 @@ Tensorflow - TensorFlow is an open-source machine learning and deep learning lib
 ReLU is used as an activation function.
 
 
-3.	Description of the code:
+## Description of the code:
 -	Importing the libraries (numpy and tensorflow)
 -	Importing the MNIST dataset which contains images of handwritten numbers.
 -	Data is reshaped (28x28 matrix in the 1D vector of size 784), normalizing pixel values (0-255 to 0-1), and encoding (one-hot encoding).
@@ -27,7 +26,7 @@ ReLU is used as an activation function.
 -	Finally the model is trained and evaluated.
 
 
-4.	Output:
+## Output:
       Epoch 1, Loss: 2.2877
       Epoch 2, Loss: 2.2343
       Epoch 3, Loss: 2.1234
@@ -51,12 +50,12 @@ ReLU is used as an activation function.
       Test Accuracy: 90.98%
 
 
-5.	Performance:
+## Performance:
 -	The accuracy of the model is 90%.
 -	The loss reduces over the 20 epochs.
 
 
-6.	My comments:
+## My comments:
 -	The model achieved high classification accuracy.
 -	It uses a simple three-layer Neural Network with a ReLU activation function.
 -	It has fully connected layers, requires more parameters, making it less effective and, more memory-intensive.
